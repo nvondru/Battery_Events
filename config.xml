@@ -24,6 +24,7 @@
         <allow-navigation href="*" />
         <access origin="*" />
         <allow-intent href="*" />
+        <icon src="/res/icon/android/icon.png" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

@@ -8,10 +8,6 @@
         "source": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
     },
     {
-        "merged": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_icon.png.flat",
-        "source": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\icon.png"
-    },
-    {
         "merged": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_screen.png.flat",
         "source": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
     },
@@ -30,10 +26,6 @@
     {
         "merged": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi_screen.png.flat",
         "source": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\screen.png"
-    },
-    {
-        "merged": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
-        "source": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
     },
     {
         "merged": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
@@ -70,14 +62,6 @@
     {
         "merged": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxxhdpi_screen.png.flat",
         "source": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
-    },
-    {
-        "merged": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
-        "source": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
-    },
-    {
-        "merged": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
-        "source": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
     },
     {
         "merged": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_screen.png.flat",
@@ -146,9 +130,5 @@
     {
         "merged": "C:\\M335_Cordova\\BatteryEvents\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
         "source": "C:\\M335_Cordova\\BatteryEvents\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
-    },
-    {
-        "merged": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
-        "source": "C:\\M335_Cordova\\Battery_Events\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
     }
 ]

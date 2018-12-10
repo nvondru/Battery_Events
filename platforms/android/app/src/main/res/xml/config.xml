@@ -29,5 +29,6 @@
     <allow-navigation href="*" />
     <access origin="*" />
     <allow-intent href="*" />
+    <icon src="/res/icon/android/icon.png" />
     <preference name="loglevel" value="DEBUG" />
 </widget>
