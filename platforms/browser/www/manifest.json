@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Battery Events",
+  "short_name": "Battery Events",
+  "version": "io.cordova.hellocordova",
+  "description": "An application developed in the Module 335 - Develop hybrid Mobile Applications\r\n        It uses two sensors on the target platform. Theese are: Geolocation and the Battery Status sensors.\r\n        The application keeps track of the charge cycles of your phone and stores information about your position and battery levels on yout local device.\r\n        The user can inspect those information via the frontend of the application.",
+  "author": "Nicolas Vondru",
+  "icons": [],
+  "start_url": "index.html"
+}

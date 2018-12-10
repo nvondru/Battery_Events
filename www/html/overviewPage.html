@@ -1,0 +1,47 @@
+<!-- Header-Container -->
+<div class="row light-green accent-1">
+    <div class="col s2 m2 l2"></div>
+    <!-- Titel -->
+    <h4 class="col s8 m8 l8 align-center">Battery Events</h4>
+    <!-- Info-Icon -->
+    <div class="col s2 m2 l2">
+        <i class="far fa-question-circle icon margin-top modal-trigger" href="#modal1"></i>
+    </div>
+    <!-- Dropdown für Zeitauswahl -->
+    <div class="input-field col s10 m6 l4 offset-s1 offset-m3 offset-l4 ">
+        <select name="daysToShow" id="daysToShow" required onchange="refreshEntries()">                                    
+                <option value="604800000" selected>Letzte 7 Tage</option>
+                <option value="2592000000">Letzte 30 Tage</option>
+                <option value="31536000000">Letzte 365 Tage</option>
+                <option value="0">Alle</option>
+        </select>
+    </div>
+</div>
+<!-- Container für dynamische Erzeugung  der Einträge-->
+<div class="row margin-top " id="charges"></div>
+<!-- Button zum Löschen aller Einträge -->
+<div class="col s12 m12 l12 align-center margin-top ">
+    <i id="deleteButton" class="icon fas fa-trash-alt " onclick="confirmDeletionAll() "></i>
+</div>
+
+
+<!-- Info-Fenster Modal -->
+<div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4>Battery Events</h4>
+        <div class="divider margin-bottom"></div>
+        <b>What is this app about?</b>
+        <p>Everytime you charge your phone this app will track information about the battery level in the background. You can inspect the tracked data in this app.</p>
+        <b>What information is tracked?</b>
+        <p> - Battery Level (when plugged/unplugged)</p>
+        <p> - GPS-Location (when plugged)</p>
+        <p> - Time (when plugged/unplugged)</p>
+        <div class="divider margin-top"></div>
+        <em class="margin-top">You can always <b>delete</b> an element by clicking the <b>trashcan</b> symbol on the detail page.</em>
+        <em>If you want to delete all elements, click the <b>trashcan</b> symbol on the overview page.</em>
+
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Understood</a>
+    </div>
+</div>

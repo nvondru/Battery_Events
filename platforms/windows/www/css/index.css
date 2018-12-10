@@ -1,0 +1,56 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.padding-2 {
+    padding: 2rem;
+}
+
+.align-center {
+    text-align: center;
+}
+
+
+/* .charge-panel {
+    margin-bottom: 1rem !important;
+} */
+
+.card-panel {
+    padding: 2% 2% 2% 2%;
+}
+
+.row {
+    margin-bottom: 3px;
+    padding: 2px;
+}
+
+.row .col {
+    padding: 0.083rem;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.round-corners {
+    border-radius: 1rem;
+}
+
+.round-corners-left {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.round-corners-right {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.margin-top {
+    margin-top: 1.5rem;
+}
+
+h4 {
+    margin-top: 1rem;
+}

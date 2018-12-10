@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Battery Events</name>
+    <description>
+        An application developed in the Module 335 - Develop hybrid Mobile Applications
+        It uses two sensors on the target platform. Theese are: Geolocation and the Battery Status sensors.
+        The application keeps track of the charge cycles of your phone and stores information about your position and battery levels on yout local device.
+        The user can inspect those information via the frontend of the application. 
+    </description>
+    <author email="niki.vondru@hotmail.ch" href="">
+        Nicolas Vondru
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+</widget>
