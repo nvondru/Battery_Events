@@ -19,7 +19,7 @@ $(function() {
     $('body').append('<script src="https://maps.googleapis.com/maps/api/js?key=' + mapsAPIKey + '" async defer></script>');
     db = window.openDatabase("battery_db", "1.0", "Database for Cordova App 'Battery Events'", 200000, console.info("DB created"));
     $.initDB();
-    // $.insertSampleData();
+    $.insertSampleData();
     showOverview();
 
 
@@ -172,7 +172,7 @@ jQuery.extend({
     },
     // -------------------------------------------------------------------------------
     errorCB: function() {
-        alert("Fehler bei der SQL-Aktion");
+        alert("Fehler beim Aufzeichnen des Ladevorganges");
     }
 
 

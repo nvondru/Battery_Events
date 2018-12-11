@@ -10,10 +10,10 @@
     <!-- Dropdown für Zeitauswahl -->
     <div class="input-field col s10 m6 l4 offset-s1 offset-m3 offset-l4 ">
         <select name="daysToShow" id="daysToShow" required onchange="refreshEntries()">                                    
-                <option value="604800000" selected>Letzte 7 Tage</option>
-                <option value="2592000000">Letzte 30 Tage</option>
-                <option value="31536000000">Letzte 365 Tage</option>
-                <option value="0">Alle</option>
+                <option value="604800000" selected>Last 7 days</option>
+                <option value="2592000000">Last 30 days</option>
+                <option value="31536000000">Last 365 days</option>
+                <option value="0">All</option>
         </select>
     </div>
 </div>
@@ -30,12 +30,18 @@
     <div class="modal-content">
         <h4>Battery Events</h4>
         <div class="divider margin-bottom"></div>
-        <b>What is this app about?</b>
-        <p>Everytime you charge your phone this app will track information about the battery level in the background. You can inspect the tracked data in this app.</p>
-        <b>What information is tracked?</b>
-        <p> - Battery Level (when plugged/unplugged)</p>
-        <p> - GPS-Location (when plugged)</p>
-        <p> - Time (when plugged/unplugged)</p>
+        <p>
+            <b>What is this app about?</b>
+            <p>Everytime you charge your phone this app will track information about the battery level. You can inspect the tracked data in this app.</p>
+            <em>Currently you need to have the app opened while connecting/disconnecting your phone. Otherwise data will not be tracked or show incorrect values!</em>
+        </p>
+        <p>
+            <b>What information is tracked?</b>
+            <p> - Battery Level (when plugged/unplugged)</p>
+            <p> - GPS-Location (when plugged)</p>
+            <p> - Time (when plugged/unplugged)</p>
+        </p>
+
         <div class="divider margin-top"></div>
         <em class="margin-top">You can always <b>delete</b> an element by clicking the <b>trashcan</b> symbol on the detail page.</em>
         <em>If you want to delete all elements, click the <b>trashcan</b> symbol on the overview page.</em>
